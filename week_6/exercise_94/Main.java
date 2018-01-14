@@ -10,6 +10,7 @@ public class Main {
         String number = testPhoneBook.searchNumber("Pekka Mikkola");
         System.out.println( number );
 
+        // Try updating references like this. Make a new one. Making the "number" string final would avoid temptations like this.
         number = testPhoneBook.searchNumber("Martti Tienari");
         System.out.println( number );
     }
